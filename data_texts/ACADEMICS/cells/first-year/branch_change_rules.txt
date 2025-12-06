@@ -1,0 +1,14 @@
+Subject: Branch Change Policy and Fee Implications
+Keywords: branch change, slide, sfs fee, gas fee
+
+1. The "Golden Window":
+   - Timing: Only at the start of III Semester (2nd Year).
+
+2. Eligibility:
+   - Must pass 1st Year in First Attempt (Zero Backlogs).
+   - Min SGPA >= 5.50.
+
+3. The "Golden Handcuffs" (Fee Rule):
+   - GAS to SFS: You pay Higher SFS Fee.
+   - SFS to GAS: You CONTINUE paying Higher SFS Fee.
+   - Rule: You cannot leave a branch if strength falls below 75%.

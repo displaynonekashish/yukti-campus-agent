@@ -1,0 +1,66 @@
+*** MASTER DIRECTORY OF OFFICIAL LINKS (ECA AJMER) ***
+
+### 1. COLLEGE ERP (Registration & Fees)
+* **College ERP Portal (Student Login)**
+  + Use this link when students ask: "ERP login", "Check fee status", "Semester registration link", "Update profile".
+  + Direct Link: http://erp.ecajmer.ac.in
+  + Login Info: Username is usually the College ID (e.g., 21CSXX). Default password often '123456' (change on first login).
+
+* **Employee/Faculty ERP**
+  + Use this link when faculty ask: "Staff login", "Employee corner", "Faculty attendance portal".
+  + Direct Link: https://www.ecajmer.ac.in/employeecorner
+
+### 2. EXAMS & UNIVERSITY (BTU Portal)
+* **BTU Student Login (Exam Forms)**
+  + Use this link when students ask: "Fill exam form", "Download Admit Card", "Revaluation form", "Student Panel".
+  + Note: This is different from the College ERP. This is for the University.
+  + Direct Link: https://btu.ucanapply.com/smartexam/public/student
+
+* **BTU Results Page**
+  + Use this link when students ask: "Check semester result", "Is the result declared?", "Back paper result".
+  + Direct Link: https://btu.ucanapply.com/smartexam/public/result-details
+
+### 3. DYNAMIC UPDATES (News & Orders)
+* **Latest Office Orders & Circulars**
+  + Use this link when students ask: "New notices", "Time table download", "Holiday notice", "Exam circulars".
+  + Direct Link: https://www.ecajmer.ac.in/orders
+
+* **Examination Cell Specific Circulars**
+  + Use this link when students ask: "Exam center list", "Practical exam dates", "Exam cell notices".
+  + Direct Link: https://www.ecajmer.ac.in/cell/examination/circulars
+
+### 4. MONEY MATTERS (Fees & Scholarships)
+* **SBI Collect (Fee Payment)**
+  + Use this link when students ask: "Pay college fees online", "Challan link", "Pay back improvement fee".
+  + Direct Link: https://www.onlinesbi.sbi/sbicollect/icollecthome.htm
+
+* **Scholarship Portal (SJE)**
+  + Use this link when students ask: "Apply for Samaj Kalyan scholarship", "SJE portal", "Scholarship status".
+  + Direct Link: https://sje.rajasthan.gov.in/Scholarship_portal.aspx
+
+### 5. PLACEMENTS (TPO)
+* **TPO Official Website**
+  + Use this link when students ask: "TPO site", "Placement drive registration", "Company list".
+  + Direct Link: http://tpo.ecajmer.ac.in
+
+* **TPO Student Login**
+  + Use this link when students ask: "Login to TPO", "Update resume for placement".
+  + Direct Link: http://tpo.ecajmer.ac.in/login
+
+### 6. DOWNLOADS & ACADEMICS
+* **Official Formats (No Dues, CC, Applications)**
+  + Use this link when students ask: "Download No Dues form", "Caution money format", "Application format".
+  + Direct Link: https://www.ecajmer.ac.in/orders (Check the 'Formats' tab)
+
+* **BTU Syllabus**
+  + Use this link when students ask: "Download syllabus", "Course curriculum", "Subject list".
+  + Direct Link: https://btu.ac.in/home/Syllabus
+
+### 7. GRIEVANCES & RULES
+* **Anti-Ragging Undertaking**
+  + Use this link when students ask: "Fill anti-ragging affidavit", "Undertaking form".
+  + Direct Link: https://www.antiragging.in
+
+* **RTI (Right to Information)**
+  + Use this link when students ask: "File an RTI", "College transparency".
+  + Direct Link: https://www.ecajmer.ac.in/rti

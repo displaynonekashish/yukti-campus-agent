@@ -1,0 +1,183 @@
+### Engineering College Ajmer - Placement Statistics (Branch-wise)
+
+### Placement Data by Academic Year
+
+### Academic Years 2017-2018 to 2021-2022
+
+#### 2017-2018
+- **Total Placements:** 67
+- **Total Companies Visited:** 20
+
+**Branch-wise Placements:**
+- Computer Science (CS): 29
+- Information Technology (IT): 13
+- Electronics & Communication Engineering (ECE): 07
+- Electronics Instrumentation & Control (EIC): 04
+- Electrical Engineering (EE): 02
+- Mechanical Engineering (ME): 06
+- Civil Engineering: 00
+- MCA: 00
+- MBA: 06
+- M.Tech.: 00
+
+#### 2018-2019
+- **Total Placements:** 131
+- **Total Companies Visited:** 32
+
+**Branch-wise Placements:**
+- Computer Science (CS): 58
+- Information Technology (IT): 08
+- Electronics & Communication Engineering (ECE): 19
+- Electronics Instrumentation & Control (EIC): 04
+- Electrical Engineering (EE): 10
+- Mechanical Engineering (ME): 26
+- Civil Engineering: 02
+- MCA: 02
+- MBA: 02
+- M.Tech.: 00
+
+#### 2019-2020
+- **Total Placements:** 124
+- **Total Companies Visited:** 22
+
+**Branch-wise Placements:**
+- Computer Science (CS): 61
+- Information Technology (IT): 08
+- Electronics & Communication Engineering (ECE): 32
+- Electronics Instrumentation & Control (EIC): 04
+- Electrical Engineering (EE): 10
+- Mechanical Engineering (ME): 08
+- Civil Engineering: 00
+- MCA: 01
+- MBA: 00
+- M.Tech.: 00
+
+#### 2020-2021
+- **Total Placements:** 194
+- **Total Companies Visited:** 41
+
+**Branch-wise Placements:**
+- Computer Science (CS): 101
+- Information Technology (IT): 16
+- Electronics & Communication Engineering (ECE): 27
+- Electronics Instrumentation & Control (EIC): 11
+- Electrical Engineering (EE): 15
+- Mechanical Engineering (ME): 20
+- Civil Engineering: 04
+- MCA: 00
+- MBA: 00
+- M.Tech.: 00
+
+#### 2021-2022
+- **Total Placements:** 274
+- **Total Companies Visited:** 73
+
+**Branch-wise Placements:**
+- Computer Science (CS): 104
+- Information Technology (IT): 32
+- Electronics & Communication Engineering (ECE): 33
+- Electronics Instrumentation & Control (EIC): 09
+- Electrical Engineering (EE): 15
+- Mechanical Engineering (ME): 69
+- Civil Engineering: 10
+- MCA: 02
+- MBA: 00
+- M.Tech.: 00
+
+---
+
+### Academic Years 2022-2023 to 2024-2025
+
+#### 2022-2023
+- **Total Placements:** 222
+- **Total Companies Visited:** 58
+
+**Branch-wise Placements:**
+- Computer Science (CS): 65
+- Information Technology (IT): 18
+- Electronics & Communication Engineering (ECE): 29
+- Electronics Instrumentation & Control (EIC): 15
+- Electrical Engineering (EE): 24
+- Mechanical Engineering (ME): 45
+- Civil Engineering: 23
+- MCA: 03
+- MBA: 00
+- M.Tech.: 00
+
+#### 2023-2024
+- **Total Placements:** 189
+- **Total Companies Visited:** 32
+
+**Branch-wise Placements:**
+- Computer Science (CS): 77
+- Information Technology (IT): 18
+- Electronics & Communication Engineering (ECE): 34
+- Electronics Instrumentation & Control (EIC): 05
+- Electrical Engineering (EE): 18
+- Mechanical Engineering (ME): 30
+- Civil Engineering: 03
+- MCA: 04
+- MBA: 00
+- M.Tech.: 00
+
+#### 2024-2025
+- **Total Placements:** 216
+- **Total Companies Visited:** 30
+
+**Branch-wise Placements:**
+- Computer Science (CS): 80
+- Information Technology (IT): 22
+- Electronics & Communication Engineering (ECE): 20
+- Electronics Instrumentation & Control (EIC): 06
+- Electrical Engineering (EE): 36
+- Mechanical Engineering (ME): 42
+- Civil Engineering: 04
+- MCA: 06
+- MBA: 00
+- M.Tech.: 00
+
+---
+
+### Placement Trends & Analysis
+
+**Highest Placement Year:** 2021-2022 (274 placements, 73 companies)
+
+**Top Performing Branches (Overall):**
+1. Computer Science (CS) - Consistently highest placements
+2. Information Technology (IT) - Strong performance
+3. Electronics & Communication Engineering (ECE) - Good placements
+4. Mechanical Engineering (ME) - Strong in recent years
+5. Electrical Engineering (EE) - Steady growth
+
+**Growth Trends:**
+- Placement numbers have shown significant growth from 2017-2018 (67) to 2021-2022 (274)
+- Computer Science branch consistently leads in placements
+- Core branches (Civil, EIC) have lower but improving placement numbers
+- MCA and MBA placements are limited but present in recent years
+
+**Company Visits:**
+- Peak year: 2021-2022 (73 companies)
+- Average companies per year: 30-40 companies
+- Consistent company participation across years
+
+---
+
+### Important Notes
+
+- Placement statistics are updated annually
+- Numbers represent students placed through campus recruitment drives
+- Statistics include all branches and programs (B.Tech, M.Tech, MCA, MBA)
+- Data is compiled by the Training & Placement Cell
+- For latest placement updates, contact the TPO office or visit the TPO website
+
+---
+
+### Contact for Placement Queries
+
+**Training & Placement Cell:**
+- Email: placements@ecajmer.ac.in
+- Website: http://tpo.ecajmer.ac.in
+- Phone: Contact college office
+
+
+

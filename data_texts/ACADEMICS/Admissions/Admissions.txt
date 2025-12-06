@@ -1,0 +1,201 @@
+### Engineering College Ajmer (ECA) - Admission Information
+
+### B.Tech Admission Process
+
+**Primary Route: REAP (Rajasthan Engineering Admission Process)**
+
+**Counseling Authority:** Centre for Electronic Governance (CEG), Jaipur
+
+**Basis of Selection:**
+- **Priority 1:** JEE Main Score (Rank) - REAP General Merit Rank is calculated primarily based on JEE Main AIR (All India Rank)
+- **Priority 2:** Class 12th Percentile (if seats remain vacant after exhausting JEE Main candidates)
+
+**Eligibility Criteria:**
+- **Educational:** Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one optional subject (Chemistry/Bio-Tech/Biology/Technical Vocational)
+- **Minimum Marks:** At least 45% aggregate (40% for SC/ST/Non-creamy layer OBC/MBC of Rajasthan)
+
+**Key Documents Required:**
+- JEE Main Scorecard
+- Class 10th & 12th Marksheets
+- Domicile Certificate
+- Category Certificate
+- Medical Fitness Certificate
+
+**Important Notes:**
+- Admissions are centralized and conducted by CEG, Rajasthan
+- There is no separate college-level entrance exam
+- Computer Science and IT seats fill very fast (usually in Round 1 & 2)
+- Core branches like Civil/Mechanical often have seats available in Spot Rounds (direct college-level admission) for candidates with lower percentages
+
+**Tentative Cutoffs (REAP General Merit Rank):**
+Note: These are estimated State Merit Ranks, not JEE Main All India Ranks. A REAP Rank of 2000 roughly corresponds to a much higher JEE Main AIR (e.g., 60k–90k range) depending on the applicant pool.
+
+| Course Branch | Tentative Closing Rank (REAP Merit) | Likely JEE Main Percentile Required |
+|---------------|-------------------------------------|--------------------------------------|
+| Computer Science (CSE) | 1,200 – 2,500 | ~90 - 93 %ile |
+| Information Technology (IT) | 2,500 – 6,000 | ~85 - 89 %ile |
+| Electronics & Comm. (ECE) | 5,000 – 9,000 | ~80 - 85 %ile |
+| Electrical Engineering | 10,000 – 14,000 | ~70 - 75 %ile |
+| Mechanical Engineering | 12,000 – 18,000+ | ~60 - 70 %ile |
+| Civil Engineering | 15,000 – 20,000+ | ~50 - 65 %ile |
+| EIC (Instrumentation) | 20,000+ | ~50 - 60 %ile |
+
+**Lateral Entry (LEEP):**
+- Direct admission to 2nd year B.Tech is available for Diploma/B.Sc. holders via LEEP counseling
+- Process: LEEP (Lateral Entry Engineering Program) counseling
+
+**B.Tech Programs Offered:**
+1. Civil Engineering (Intake: 60)
+2. Computer Engineering (Intake: 120)
+3. Computer Science & Engineering - Cyber Security (Intake: 60)
+4. Electrical Engineering (Intake: 60)
+5. Electronics & Communication Engineering (Intake: 90)
+6. Electronics Instrumentation & Control Engineering (Intake: 60)
+7. Information Technology (Intake: 60)
+8. Mechanical Engineering (Intake: 75)
+
+---
+
+### M.Tech Admission Process
+
+**Primary Route: CAM (Centralized Admission for M.Tech)**
+
+**Admissions are coordinated centrally for Rajasthan technical universities.**
+
+**Basis of Selection:**
+- **Priority 1:** Valid GATE Score (Scholarship available for GATE qualified candidates - approx. ₹12,400/month stipend)
+- **Priority 2:** Merit in Qualifying Degree (B.E./B.Tech percentage) for non-GATE candidates
+
+**Eligibility:**
+- B.E./B.Tech in relevant discipline with 50% marks (45% for SC/ST/OBC)
+
+**Tentative Cutoff:**
+- **GATE Candidates:** Valid Scorecard (Qualifying marks ~300-350 score is usually safe for admission)
+- **Non-GATE:** Open admission in most branches (except CS/Production) due to seat availability
+
+**Specializations Offered:**
+1. Computer Science & Engineering (Intake: 9)
+2. Software Engineering (Intake: 9)
+3. Digital Communication (Intake: 9)
+4. Power Systems (Intake: 18)
+5. Production Engineering (Intake: 18)
+6. Renewable Energy (Intake: 18)
+7. VLSI Design & Embedded Systems (Intake: 18)
+8. Information Technology (Intake: 9)
+
+---
+
+### MCA Admission Process
+
+**Primary Route: RMCAAP (Rajasthan MCA Admission Process)**
+
+**Exams Accepted:**
+- **Priority:** NIMCET (Preferred)
+- **Alternative:** Direct admission based on Graduation percentage if seats remain vacant after NIMCET counseling
+
+**Eligibility:**
+- Bachelor's Degree (min 50%) + Mathematics at 12th or Graduation level
+- BCA/B.Sc. (Computer Science)/B.Sc. (IT)/B.E. (CSE)/B.Tech (CSE)/B.E. (IT)/B.Tech (IT) or equivalent Degree
+- OR Passed any graduation degree (B.E./B.Tech/B.Sc/B.Com/B.A./B.Voc. etc.) preferably with Mathematics at 10+2 level or at Graduation level
+- Minimum 50% marks (45% marks for reserved category)
+
+**Cutoff Trend:**
+- **NIMCET:** Any valid rank usually secures a seat
+- **Direct Merit:** Since many seats often remain vacant after NIMCET counseling, admission is frequently given based on Graduation % (B.Sc./BCA with Math)
+
+**Intake:** 60 seats
+
+**Course Duration:** Two Years
+
+---
+
+### MBA Admission Process
+
+**Primary Route: RMACP (Rajasthan Management Admission Process)**
+
+**Exams Accepted:**
+- **Primary:** CMAT (Preferred)
+- **Alternative:** RMAT and other approved tests
+- **Direct Admission:** Available for vacant seats based on Graduation % after the counseling rounds
+
+**Eligibility:**
+- Bachelor's Degree in any discipline (min 50%) from a recognized university
+
+**Specializations:**
+- Finance
+- Marketing
+- HRM (Human Resource Management)
+- Operations
+
+**Cutoff Trend:**
+- **CMAT:** ~25+ Percentile is often sufficient for admission
+- **Direct Admission:** Available for vacant seats based on Graduation % after counseling rounds
+
+**Intake:** 60 seats
+
+---
+
+### Important Dates (Tentative Annual Cycle)
+
+Dates vary annually. Below is the standard timeline for the Academic Year:
+
+| Event | Tentative Month |
+|-------|----------------|
+| JEE Main (Session 1 & 2) | January & April |
+| GATE Exam | February |
+| REAP Registration (B.Tech) | June - July |
+| CAM Registration (M.Tech) | June - July |
+| RMCAAP/RMACP (MCA/MBA) | June - August |
+| College Reporting / Spot Rounds | August |
+
+**Note:** For the most accurate, real-time updates, contact the administration directly or check the official website.
+
+---
+
+### Fee Structure (Approximate)
+
+| Program | Fee Range (Per Year) |
+|---------|---------------------|
+| B.Tech (SFS - Self Finance) | ₹70,000 - ₹85,000 |
+| B.Tech (GAS - Govt Aided) | ₹20,000 - ₹25,000 (Limited seats, high merit required) |
+| MBA | ₹60,000 - ₹70,000 |
+| MCA | ₹60,000 - ₹70,000 |
+| M.Tech | ₹70,000 - ₹80,000 |
+
+**Note:** Fees are subject to change. Please verify with the college administration for current fee structure.
+
+---
+
+### Contact Information
+
+**Address:** Engineering College Ajmer, NH-8, Barliya Chouraha, Ajmer, Rajasthan, India - 305025
+
+**Official Website:** www.ecajmer.ac.in
+
+**Email:** principal@ecajmer.ac.in
+
+**Phone Numbers:**
+- Office: +91-145-2971024
+- Proctor Section (Admissions): +91-145-2971023
+
+**For Admission Queries:**
+- Contact the Admission Office during office hours
+- Check the official website for latest updates and notifications
+- Email principal@ecajmer.ac.in for admission-related questions
+
+---
+
+### Important Notes
+
+1. **Admission Process:** All admissions are conducted through centralized counseling processes (REAP, CAM, RMCAAP, RMACP). There is no separate college-level entrance exam.
+
+2. **Spot Rounds:** If seats remain vacant after counseling rounds, direct college-level admission (Spot Rounds) may be available for eligible candidates.
+
+3. **Document Verification:** All original documents must be produced at the time of admission for verification.
+
+4. **Scholarships:** GATE qualified M.Tech students are eligible for scholarship (approx. ₹12,400/month stipend).
+
+5. **Updates:** Admission dates, cutoffs, and procedures may change annually. Always refer to the official website or contact the admission office for the most current information.
+
+
+

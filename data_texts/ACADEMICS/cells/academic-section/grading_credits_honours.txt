@@ -1,0 +1,26 @@
+Subject: CBCS System, Grading, Credits, and Honours Degree
+Keywords: grading system, sgpa, cgpa, credits, honors, passing marks, practical pass, mooc, nptel
+
+1. The Choice Based Credit System (CBCS):
+   - Definition: Academic weight is measured in Credits.
+   - Credit Formula:
+     * 1 Hour Lecture (L) = 1 Credit
+     * 1 Hour Tutorial (T) = 1 Credit
+     * 1 Hour Practical (P) = 0.5 Credit (Labs have half weightage).
+
+2. Passing Standards (The 40-50 Rule):
+   - Theory Pass Marks: 40% (Grade P).
+   - Practical/Lab Pass Marks: 50%.
+   - Consequence: A student scoring 45% in Theory passes, but 45% in a Lab is a FAIL.
+
+3. Grading Table (BTU/ECA Standard):
+   - O (10.0), A+ (9.0), A (8.5), B+ (8.0), B (7.5), C (7.0), P (6.5).
+   - F (Fail): <40% (Theory) or <50% (Practical).
+
+4. B.Tech Honours Degree:
+   - Requirement: Earn 20 Extra Credits beyond standard 166 via MOOCs (NPTEL/SWAYAM).
+
+5. Degree Division:
+   - Distinction: CGPA >= 7.50 (First attempt).
+   - First Division: 6.50 - 7.50.
+   - Second Division: 5.50 - 6.50.
