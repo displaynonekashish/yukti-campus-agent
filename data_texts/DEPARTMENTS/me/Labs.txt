@@ -1,1 +1,76 @@
-Department of Mechanical Engineering ### About Department People Labs Announcements Circulars Time Tables Gallery ### Achievements Questions Labs Material Science and Testing ### Labs Room: - Workshop (WS-5/6) ### Labs In-charge: - Dr. • Alok Khatri ### Labs Technician: - Mr. • Kamlesh Kumar ### Labs Attendent: - Mr. • Shvji Ram
+*** MECHANICAL ENGINEERING LABS (Complete) ***
+
+### 🔍 QUICK LOOKUP TABLE (Room <-> Name)
+* **WS-1/2** = Heat and Mass Transfer Lab
+* **WS-3/4** = Computer Aided Manufacturing (CAM) Lab
+* **WS-5/6** = Material Science and Testing Lab
+* **WS-7/8** = Dynamics of Machine Lab / Vibration Engineering Lab
+* **WS-9/10** = Production Engineering Lab
+* **NB-226** = Industrial Engineering Lab (Shared Block)
+* **CAD Lab** = Computer Aided Design Lab
+* **FM Lab** = Fluid Mechanics Lab
+* **Thermal Lab** = Thermal Engineering Lab
+
+---
+
+### DETAILED LAB INFORMATION
+
+**Material Science and Testing Lab**
+* **Room:** Workshop (WS-5/6)
+* **Keywords:** "Material Science", "Testing Lab Mech", "WS5", "WS6"
+* **Lab In-charge:** Dr. Alok Khatri
+* **Tech Staff:** Mr. Kamlesh Kumar, Mr. Shvji Ram
+
+**Computer Aided Manufacturing (CAM) Lab**
+* **Room:** Workshop (WS-3/4)
+* **Keywords:** "CAM Lab", "WS3", "WS4"
+* **Lab In-charge:** Mr. Tarun Kumar Aseri
+* **Tech Staff:** Mr. Rajesh Kumawat, Mr. Uttam Singh
+
+**Dynamics of Machine Lab (DOM)**
+* **Room:** Workshop (WS-7/8)
+* **Keywords:** "DOM Lab", "Dynamics", "WS7", "WS8"
+* **Lab In-charge:** Dr. Chandan Sharma
+* **Tech Staff:** Mr. Rajesh Kumawat, Mr. Shvji Ram
+
+**Heat and Mass Transfer Lab (HMT)**
+* **Room:** Workshop (WS-1/2)
+* **Keywords:** "HMT Lab", "Heat Transfer", "WS1", "WS2"
+* **Lab In-charge:** Dr. Rohit Misra
+* **Tech Staff:** Mr. Rajesh Kumawat, Mr. Shvji Ram
+
+**Vibration Engineering Lab**
+* **Room:** Workshop (WS-7/8)
+* **Keywords:** "Vibration Lab", "WS7", "WS8"
+* **Lab In-charge:** Dr. Alok Khatri
+* **Tech Staff:** Mr. Govind Sharma, Mr. Uttam Singh
+
+**Industrial Engineering Lab**
+* **Room:** NB-226
+* **Keywords:** "Industrial Lab Mech", "NB226"
+* **Lab In-charge:** Dr. Devendra Choudhary
+* **Tech Staff:** Mr. Uttam Singh
+
+**Production Engineering Lab**
+* **Room:** Workshop (WS-9/10)
+* **Keywords:** "Production Lab", "WS9", "WS10"
+* **Lab In-charge:** Mr. Yogesh K Gupta
+* **Tech Staff:** Mr. Devishankar, Mr. Shvji Ram
+
+**Fluid Mechanics Lab**
+* **Room:** FM Lab
+* **Keywords:** "Fluid Lab", "FM Lab"
+* **Lab In-charge:** Dr. Mool Chand
+* **Tech Staff:** Mr. Kamlesh Kumar, Mr. Shvji Ram
+
+**Computer Aided Design (CAD) Lab**
+* **Room:** CAD Lab
+* **Keywords:** "CAD Lab Mech"
+* **Lab In-charge:** Dr. Ankur Pareek
+* **Tech Staff:** Mr. Rajesh Kumawat, Mr. Uttam Singh
+
+**Thermal Engineering Lab**
+* **Room:** Thermal Lab
+* **Keywords:** "Thermal Lab", "IC Engine"
+* **Lab In-charge:** Dr. D.K. Jamuwa
+* **Tech Staff:** Mr. Devi Shankar, Mr. Shvji Ram

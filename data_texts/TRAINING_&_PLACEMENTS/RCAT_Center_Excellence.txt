@@ -1,0 +1,22 @@
+*** RCAT & CENTER OF EXCELLENCE (Robotics & Automation) ***
+
+### 1. WHAT IS IT?
+* **Full Name:** Rajiv Gandhi Centre of Advanced Technology (RCAT) / Center of Excellence.
+* **Location:** Situated between the Old Building and New Building (at the location of the former Old Canteen).
+* **Objective:** To provide advanced industrial training in Robotics, Cloud Computing, and Automation to make students industry-ready.
+
+### 2. MANAGEMENT & FACULTY
+* **Key Coordinator:** Dr. Dilip Sisodia (CS Dept) [and other associated faculty].
+* **Department Involvement:** Primarily managed in collaboration with Computer Science and Mechanical departments for interdisciplinary projects.
+
+### 3. COURSES & TRAINING
+* **Technologies:**
+  + Robotics & Industrial Automation
+  + Augmented Reality (AR) / Virtual Reality (VR)
+  + Auto-CAD & Manufacturing simulation
+* **Certification:** Courses usually offer certificates valid for industrial training credits.
+
+### 4. HOW TO REGISTER
+* **Online:** Visit the official RCAT or College website for course listings.
+* **Offline (In-Campus):** Students can visit the RCAT Center (Between Old & New Building) directly to inquire about upcoming batches.
+* **External Students:** Registration is often open to students from other colleges as well, subject to batch availability.

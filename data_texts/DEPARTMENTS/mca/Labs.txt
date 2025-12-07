@@ -1,1 +1,28 @@
-Department of Computer Applications ### About Department People Labs Announcements Circulars Time Tables Gallery ### Achievements Questions Labs DENNIS RITCHIE COMPUTER ### Labs Room: - F-15 A ### Labs In-charge: - SH. • VIVEK DUBEY ### Labs Technician: - SH. • VISHAL BALANI ### Labs Attendent: - SH. • UTTAM SINGH
+*** MASTER OF COMPUTER APPLICATIONS LABS (MCA) ***
+
+### 🔍 QUICK LOOKUP TABLE (Room <-> Name)
+* **F-15A** = Dennis Ritchie Computer Lab (C Programming Lab)
+* **F-15B** = E.F. Codd Computer Lab (DBMS Lab)
+* **F-16** = S.N. Bose Computer Lab
+
+---
+
+### DETAILED LAB INFORMATION
+
+**Dennis Ritchie Computer Lab**
+* **Room:** F-15A
+* **Keywords:** "Ritchie Lab", "C Lab", "F15A", "F-15 A"
+* **Lab In-charge:** Sh. Vivek Dubey
+* **Tech Staff:** Sh. Vishal Balani (Technician), Sh. Uttam Singh (Attendant)
+
+**E.F. Codd Computer Lab**
+* **Room:** F-15B
+* **Keywords:** "Codd Lab", "DBMS Lab", "F15B", "F-15 B"
+* **Lab In-charge:** Sh. Vivek Dubey
+* **Tech Staff:** Sh. Vishal Balani (Technician), Sh. Uttam Singh (Attendant)
+
+**S.N. Bose Computer Lab**
+* **Room:** F-16
+* **Keywords:** "Bose Lab", "F16"
+* **Lab In-charge:** Sh. Vivek Dubey
+* **Tech Staff:** Sh. Vishal Balani (Technician), Sh. Uttam Singh (Attendant)

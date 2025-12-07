@@ -1,1 +1,56 @@
-Engineering College Ajmer ​ ▼ Hindi Department of Civil Engineering ### About Department People Labs Announcements Circulars Time Tables Gallery ### Achievements Questions Labs Concrete Technology ### Labs Room: - C-12 A ### Labs In-charge: - - ### Labs Technician: - - ### Labs Attendent: - -
+*** CIVIL ENGINEERING DEPARTMENT LABS ***
+
+### 🔍 QUICK LOOKUP TABLE (Room <-> Name)
+* **C-11** = CAD Lab
+* **C-12** = Material Testing Lab
+* **C-12A** = Concrete Technology Lab
+* **C-13** = Geology Lab / Environmental Engineering Lab
+* **C-14** = Structural Engineering Lab
+* **C-18** = Road Material Testing Lab
+* **C-20** = Geotechnical Engineering Lab
+* **C-21** = Surveying Lab
+* **CE-19** = Hydraulics Engineering Lab
+
+---
+
+### DETAILED LAB INFORMATION
+
+**Concrete Technology Lab**
+* **Room:** C-12A
+* **Keywords:** "Concrete Lab", "CT Lab", "C12A"
+
+**CAD Lab**
+* **Room:** C-11
+* **Keywords:** "CAD Civil", "Design Lab", "C11"
+
+**Material Testing Lab**
+* **Room:** C-12
+* **Keywords:** "Material Lab", "MT Lab", "C12"
+
+**Road Material Testing Lab**
+* **Room:** C-18
+* **Keywords:** "Road Lab", "Highway Lab", "C18"
+
+**Geotechnical Engineering Lab**
+* **Room:** C-20
+* **Keywords:** "Soil Lab", "Geotech", "C20"
+
+**Surveying Lab**
+* **Room:** C-21
+* **Keywords:** "Survey Lab", "Total Station", "C21"
+
+**Geology Lab**
+* **Room:** C-13
+* **Keywords:** "Geology", "C13"
+
+**Environmental Engineering Lab**
+* **Room:** C-13
+* **Keywords:** "Environment Lab", "Water Lab", "C13"
+
+**Structural Engineering Lab**
+* **Room:** C-14
+* **Keywords:** "Structure Lab", "C14"
+
+**Hydraulics Engineering Lab**
+* **Room:** CE-19
+* **Keywords:** "Fluid Lab Civil", "Hydraulics", "CE19"

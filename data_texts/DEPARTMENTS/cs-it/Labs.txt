@@ -1,1 +1,77 @@
-Department of Computer Science and Engineering ### About Department People Labs Announcements Circulars Time Tables Gallery ### Achievements Questions Labs Srinivasa Ramanujan Room: - G-18/A ### Labs In-charge: - Dr. • Jyoti Gajrani ### Labs Technician: - Mr. • Ajay kumar Meena ### Labs Attendent: - Sh. • Harsh Nirwan
+*** COMPUTER SCIENCE & IT DEPARTMENT LABS (CS/IT) ***
+
+### 🔍 QUICK LOOKUP TABLE (Room <-> Name)
+* **G-31** = Aryabhata Lab (Computer Center)
+* **G-18/A** = Srinivasa Ramanujan Lab
+* **G-18/B** = J. C. Bose Lab
+* **G-13** = Vikram Sarabhai Lab
+* **G-20** = M. Visvesvaraya Lab
+* **G-21** = Venkatraman Radhakrishnan Lab
+* **G-22** = Homi J. Bhabha Lab
+* **G-23** = C. V. Raman Lab
+* **G-24** = Param Lab (Supercomputer Lab)
+* **G-29** = A.P.J. Abdul Kalam Lab
+
+---
+
+### DETAILED LAB INFORMATION
+
+**Aryabhata Lab**
+* **Room:** G-31
+* **Keywords:** "G31", "G-31", "Aryabhatta", "Main Computer Center", "CC Lab"
+* **Lab In-charge:** Mr. Anil Kumar Tailor
+* **Tech Staff:** Mr. Ajay Kumar Meena (Technician), Sh. Harsh Nirwan (Attendant)
+
+**Srinivasa Ramanujan Lab**
+* **Room:** G-18/A
+* **Keywords:** "G18A", "G-18A", "Ramanujan", "G-18 A"
+* **Lab In-charge:** Dr. Jyoti Gajrani
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**J. C. Bose Lab**
+* **Room:** G-18/B
+* **Keywords:** "G18B", "G-18B", "JC Bose", "G-18 B"
+* **Lab In-charge:** Mr. Prakash Meena
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**Vikram Sarabhai Lab**
+* **Room:** G-13
+* **Keywords:** "G13", "G-13", "Sarabhai", "Vikram Sarabhai"
+* **Lab In-charge:** Dr. Rakesh Rathi
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**M. Visvesvaraya Lab**
+* **Room:** G-20
+* **Keywords:** "G20", "G-20", "Visvesvaraya"
+* **Lab In-charge:** Mr. Dilip Sisodia
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**Venkatraman Radhakrishnan Lab**
+* **Room:** G-21
+* **Keywords:** "G21", "G-21", "Radhakrishnan", "V.R. Lab"
+* **Lab In-charge:** Dr. Vinesh Jain
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**Homi J. Bhabha Lab**
+* **Room:** G-22
+* **Keywords:** "G22", "G-22", "Bhabha Lab"
+* **Lab In-charge:** Dr. Shikha Gupta
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**C. V. Raman Lab**
+* **Room:** G-23
+* **Keywords:** "G23", "G-23", "CV Raman"
+* **Lab In-charge:** Mr. H.R. Choudhary
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**Param Lab**
+* **Room:** G-24
+* **Keywords:** "G24", "G-24", "Param", "Super Computer"
+* **Lab In-charge:** Mr. Ravinder Singh
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan
+
+**A.P.J. Abdul Kalam Lab**
+* **Room:** G-29
+* **Keywords:** "G29", "G-29", "Kalam Lab", "Abdul Kalam"
+* **Lab In-charge:** Dr. Atul Choudhary
+* **Tech Staff:** Mr. Ajay Kumar Meena, Sh. Harsh Nirwan

@@ -1,1 +1,48 @@
-Department of Electrical Engineering ### About Department People Labs Announcements Circulars Time Tables Gallery ### Achievements Questions Labs Electrical Machines ### Labs -I: Room: - EE 13 ### Labs In-charge: - Dr. • K. • G. • Sharma and Dr. • N K Gupta ### Labs Technician: - Sh. • P. • S. • Sanhwal ### Labs Attendent: - Mrs. • Beena
+*** ELECTRICAL ENGINEERING DEPARTMENT LABS (EE) ***
+
+### 🔍 QUICK LOOKUP TABLE (Room <-> Name)
+* **EE-11** = Power System Lab
+* **EE-12** = Electrical Circuit Lab (PSPICE)
+* **EE-13** = Electrical Machines Lab-I
+* **EE-14** = Power Electronic Lab-III / Advance Power Electronics
+* **EE-15** = Electrical Workshop
+
+---
+
+### DETAILED LAB INFORMATION
+
+**Electrical Machines Lab-I**
+* **Room:** EE 13
+* **Keywords:** "Machine Lab", "Motor Lab", "EE13"
+* **Lab In-charge:** Dr. K.G. Sharma, Dr. N.K. Gupta
+* **Tech Staff:** Sh. P.S. Sanhwal (Technician), Mrs. Beena (Attendant)
+
+**Electrical Circuit Lab (PSPICE LAB)**
+* **Room:** EE 12
+* **Keywords:** "Circuit Lab", "PSPICE", "EE12"
+* **Lab In-charge:** Sh. Ajay Agarwal, Sh. Arjun Pareek
+* **Tech Staff:** Devendra Kumar Sandhya (Technician), Mrs. Beena
+
+**Power Electronic Lab-III**
+* **Room:** EE 14
+* **Keywords:** "Power Electronics", "EE14", "Drives Lab"
+* **Lab In-charge:** Dr. Indira Rawat, Sh. K Anil Kumar
+* **Tech Staff:** Mrs. Janki Sharma, Mrs. Beena
+
+**Advance Power Electronics & Drive Control Lab**
+* **Room:** EE 14
+* **Keywords:** "Advance PE", "Control Lab EE", "EE14"
+* **Lab In-charge:** Dr. Indira Rawat, Sh. K Anil Kumar
+* **Tech Staff:** Mrs. Janki Sharma, Mrs. Beena
+
+**Power System Lab**
+* **Room:** EE 11
+* **Keywords:** "Power System", "EE11", "PS Lab"
+* **Lab In-charge:** Sh. Ajay Agarwal, Sh. Dev Pratap Mahto
+* **Tech Staff:** Sh. Parveen Kumar Sharma, Mrs. Beena
+
+**Electrical Workshop**
+* **Room:** EE 15
+* **Keywords:** "Workshop", "EE15"
+* **Lab In-charge:** Mr. Gyanendra Prakesh
+* **Tech Staff:** Sh. P.S. Sanhwal, Mrs. Beena

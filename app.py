@@ -1,16 +1,22 @@
 import os
+import random
+import re
+from typing import Tuple, Dict
+
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
-import re
-from typing import Tuple, Dict
 
-# ---------------------------
-# 1. Page Config
-# ---------------------------
+# Import external trivia data
+from trivia_data import TRIVIA_DATA
+
+# Load environment variables
+load_dotenv()
+
+# Page Configuration
 st.set_page_config(
     page_title="Yukti • AI Agent",
     page_icon="logo.png",
@@ -18,88 +24,38 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ---------------------------
-# 2. Custom CSS ("Under the Moonlight" Theme)
-# ---------------------------
+# Custom Theme: "Under the Moonlight"
+# Palette: Periwinkle (#CCCCFF) -> Midnight Blue (#292966)
 st.markdown("""
     <style>
-    /* =================================================================
-       1. LIGHT MODE (Under the Moonlight Palette)
-       Colors: #CCCCFF (Light), #A3A3CC (Mid-Light), #5C5C99 (Mid-Dark), #292966 (Dark)
-       ================================================================= */
+    /* Global Styles */
+    .stApp { background-color: #CCCCFF; }
     
-    /* MAIN BACKGROUND: Periwinkle (#CCCCFF) */
-    .stApp {
-        background-color: #CCCCFF; 
-    }
-    
-    /* Headers - Midnight Blue (#292966) */
     h1, h2, h3, h4, h5, h6 { 
         color: #292966 !important; 
         font-family: 'Helvetica', sans-serif;
         font-weight: 700;
     }
+    p, li, div, label, .stMarkdown { color: #292966 !important; }
     
-    /* Body Text - Midnight Blue */
-    p, li, div, label, .stMarkdown {
-        color: #292966 !important;
-    }
-    
-    /* Chat Bubbles (Light Mode) */
+    /* Chat Card Styling */
     .stChatMessage {
-        background-color: #ffffff; /* Crisp White Cards */
-        border: 1px solid #5C5C99; /* Deep Periwinkle Border */
+        background-color: #ffffff;
+        border: 1px solid #5C5C99;
         box-shadow: 0 4px 6px rgba(41, 41, 102, 0.1);
+        border-radius: 12px;
+        padding: 15px;
+        margin-bottom: 12px;
     }
     
-    /* Sidebar (Midnight Blue) */
+    /* Sidebar Styling */
     [data-testid="stSidebar"] {
         background-color: #292966; 
         border-right: 1px solid #5C5C99;
     }
-    /* Sidebar Text - Periwinkle */
-    [data-testid="stSidebar"] * {
-        color: #CCCCFF !important;
-    }
-
-    /* =================================================================
-       2. DARK MODE OVERRIDES
-       ================================================================= */
-    @media (prefers-color-scheme: dark) {
-        /* MAIN BACKGROUND: Midnight Blue */
-        .stApp {
-            background-color: #292966 !important; 
-        }
-        
-        /* Headers - Periwinkle */
-        h1, h2, h3, h4, h5, h6 { 
-            color: #CCCCFF !important; 
-        }
-        
-        /* Body Text - Muted Lavender */
-        p, li, div, span, label, .stMarkdown {
-            color: #A3A3CC !important;
-        }
-        
-        /* Chat Bubbles (Dark Mode) */
-        .stChatMessage {
-            background-color: #5C5C99 !important; /* Deep Periwinkle Card */
-            border: 1px solid #A3A3CC !important; 
-        }
-        
-        /* Input Box (Dark Mode) */
-        .stChatInput textarea {
-            background-color: #5C5C99 !important;
-            color: #ffffff !important;
-            border: 1px solid #A3A3CC !important;
-        }
-    }
-
-    /* =================================================================
-       3. GLOBAL ELEMENTS
-       ================================================================= */
+    [data-testid="stSidebar"] * { color: #CCCCFF !important; }
     
-    /* Action Buttons - Deep Periwinkle (#5C5C99) */
+    /* Interactive Elements */
     .stButton>button {
         background-color: #5C5C99; 
         color: #ffffff !important; 
@@ -109,60 +65,58 @@ st.markdown("""
         transition: all 0.3s ease;
     }
     .stButton>button:hover {
-        background-color: #292966; /* Darker on hover */
+        background-color: #292966;
         border: 1px solid #CCCCFF;
         color: #CCCCFF !important;
     }
 
-    /* Chat Message Layout */
-    .stChatMessage {
-        border-radius: 12px;
-        padding: 15px;
-        margin-bottom: 12px;
+    /* Dark Mode Overrides */
+    @media (prefers-color-scheme: dark) {
+        .stApp { background-color: #292966 !important; }
+        h1, h2, h3, h4, h5, h6 { color: #CCCCFF !important; }
+        p, li, div, span, label, .stMarkdown { color: #A3A3CC !important; }
+        
+        .stChatMessage {
+            background-color: #5C5C99 !important;
+            border: 1px solid #A3A3CC !important; 
+        }
+        .stChatInput textarea {
+            background-color: #5C5C99 !important;
+            color: #ffffff !important;
+            border: 1px solid #A3A3CC !important;
+        }
     }
     
-    /* Clean Header */
-    header {
-        background-color: transparent !important;
-    }
-    .stToolbar button {
-        color: inherit !important;
-    }
+    /* UI Cleanup */
+    header { background-color: transparent !important; }
+    .stToolbar button { color: inherit !important; }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
-# ---------------------------
-# Load Environment & Logic
-# ---------------------------
-load_dotenv()
-
+# Initialize Resources
 @st.cache_resource
 def load_vector_db():
     try:
         embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
-        db = Chroma(persist_directory="chroma_db", embedding_function=embeddings)
-        return db
+        return Chroma(persist_directory="chroma_db", embedding_function=embeddings)
     except Exception as e:
-        st.error(f"Error loading Database: {e}")
+        st.error(f"Database connection failed: {e}")
         st.stop()
-
-db = load_vector_db()
 
 @st.cache_resource
 def load_llm():
     return ChatGroq(model="llama-3.1-8b-instant", temperature=0)
 
+db = load_vector_db()
 llm = load_llm()
 
-# --- CONSTANT: The Exact Fallback Message ---
+# Constants
 FALLBACK_MSG = """I'm still learning. For official details, please contact:
 \n📧 principal@ecajmer.ac.in
 \n📧 principal.eca@rajasthan.gov.in
 \n📞 +91-145-2971024"""
 
-# ---------------------------
-# PROMPT UPDATE: STRICT GUARDRAILS ADDED
-# ---------------------------
+# System Prompt with Strict Guardrails
 prompt = ChatPromptTemplate.from_template("""
 You are Yukti, the AI Agent for Engineering College Ajmer (ECA).
 Your role is to answer questions about the college using ONLY the information provided in the context below.
@@ -204,66 +158,69 @@ def preprocess_and_get_filter(query: str) -> Tuple[str, Dict]:
     search_query = query
     filter_conditions = []
     
-    # Person detection logic
-    person_query_keywords = ["room", "email", "contact", "phone", "office"]
-    has_person_keyword = any(keyword in query_low for keyword in person_query_keywords)
-    has_name_like_pattern = bool(re.search(r"\b[A-Z][a-z]+\s+[A-Z][a-z]+", query))
+    # 1. Person/Faculty detection
+    person_keywords = ["room", "email", "contact", "phone", "office"]
+    has_person_kw = any(k in query_low for k in person_keywords)
+    has_name_pattern = bool(re.search(r"\b[A-Z][a-z]+\s+[A-Z][a-z]+", query))
     
-    if (has_person_keyword or has_name_like_pattern) and not any("type" in str(fc) and "faculty" in str(fc) for fc in filter_conditions):
-        has_type_filter = any("type" in str(fc) for fc in filter_conditions)
-        if not has_type_filter:
+    current_types = [str(fc) for fc in filter_conditions if "type" in str(fc)]
+    if (has_person_kw or has_name_pattern) and not any("faculty" in t for t in current_types):
+        if not any("type" in t for t in current_types):
             filter_conditions.append({"type": "faculty"})
     
-    if has_person_keyword:
+    if has_person_kw:
         if "room" in query_low: search_query += " room number office location"
         if "email" in query_low: search_query += " email address contact"
 
-    # Department Logic
-    if re.search(r"\b(cse|cs-it|computer science)\b", query_low):
-        search_query = re.sub(r"\b(cse|cs-it)\b", "Computer Science", search_query, flags=re.IGNORECASE)
-        filter_conditions.append({"department": "computer_science"})
-    elif re.search(r"\b(ee|electrical)\b", query_low):
-        search_query = re.sub(r"\bee\b", "Electrical Engineering", search_query, flags=re.IGNORECASE)
-        filter_conditions.append({"department": "electrical_engineering"})
-    elif re.search(r"\b(ece|electronics)\b", query_low):
-        search_query = re.sub(r"\bece\b", "Electronics and Communication", search_query, flags=re.IGNORECASE)
-        filter_conditions.append({"department": "electronics_and_comm"})
-    elif re.search(r"\b(me|mechanical)\b", query_low):
-        search_query = re.sub(r"\bme\b", "Mechanical Engineering", search_query, flags=re.IGNORECASE)
-        filter_conditions.append({"department": "mechanical_engineering"})
-    elif re.search(r"\b(ce|civil)\b", query_low):
-        search_query = re.sub(r"\bce\b", "Civil Engineering", search_query, flags=re.IGNORECASE)
-        filter_conditions.append({"department": "civil_engineering"})
+    # 2. Department Mapping
+    dept_map = {
+        r"\b(cse|cs-it|computer science)\b": "computer_science",
+        r"\b(ee|electrical)\b": "electrical_engineering",
+        r"\b(ece|electronics)\b": "electronics_and_comm",
+        r"\b(me|mechanical)\b": "mechanical_engineering",
+        r"\b(ce|civil)\b": "civil_engineering"
+    }
     
-    # Type Logic
+    for pattern, dept_key in dept_map.items():
+        if re.search(pattern, query_low):
+            if "cse" in pattern: search_query = re.sub(r"\b(cse|cs-it)\b", "Computer Science", search_query, flags=re.IGNORECASE)
+            elif "ee" in pattern: search_query = re.sub(r"\bee\b", "Electrical Engineering", search_query, flags=re.IGNORECASE)
+            elif "ece" in pattern: search_query = re.sub(r"\bece\b", "Electronics and Communication", search_query, flags=re.IGNORECASE)
+            elif "me" in pattern: search_query = re.sub(r"\bme\b", "Mechanical Engineering", search_query, flags=re.IGNORECASE)
+            elif "ce" in pattern: search_query = re.sub(r"\bce\b", "Civil Engineering", search_query, flags=re.IGNORECASE)
+            
+            filter_conditions.append({"department": dept_key})
+            break 
+
+    # 3. Category/Type Mapping
     type_found = False
+    
     if re.search(r"\b(hod|head of department|people|faculty|professor|teacher)\b", query_low):
         search_query = re.sub(r"\bhod\b", "Head of Department", search_query, flags=re.IGNORECASE)
         filter_conditions.append({"type": "faculty"})
         type_found = True
+    
     if re.search(r"\b(tpo|placement|recruiters|jyoti gajrani|recruitment|job)\b", query_low):
         search_query = re.sub(r"\btpo\b", "Training and Placement Officer", search_query, flags=re.IGNORECASE)
         filter_conditions.append({"type": "placements"})
         type_found = True
-    if re.search(r"\b(lab|labs|laboratories|laboratory)\b", query_low):
-        filter_conditions.append({"type": "labs"})
-        type_found = True
-    if re.search(r"\b(notice|circular|announcement|notification)\b", query_low):
-        filter_conditions.append({"type": "notice"})
-        type_found = True
-    if re.search(r"\b(fee|fees|structure|payment|tuition)\b", query_low):
-        filter_conditions.append({"type": "academics"})
-        type_found = True
+        
+    simple_maps = {
+        r"\b(lab|labs|laboratories|laboratory)\b": "labs",
+        r"\b(notice|circular|announcement|notification)\b": "notice",
+        r"\b(fee|fees|structure|payment|tuition)\b": "academics",
+        r"\b(cell|cells|ncc|nss|women-cell|greivance|grievance)\b": "cell_or_club",
+        r"\b(hostel|hostels|accommodation|dormitory|girls hostel|boys hostel)\b": "hostel",
+        r"\b(sport|sports|athletic|athletics|gym|fitness|competition|game|games)\b": "sports"
+    }
+
+    for pattern, doc_type in simple_maps.items():
+        if re.search(pattern, query_low):
+            filter_conditions.append({"type": doc_type})
+            type_found = True
+
     if not type_found and re.search(r"\b(course|courses|program|admission|syllabus|department|departments|curriculum)\b", query_low):
         filter_conditions.append({"type": "academics"})
-    if re.search(r"\b(cell|cells|ncc|nss|women-cell|greivance|grievance)\b", query_low):
-        filter_conditions.append({"type": "cell_or_club"})
-    if re.search(r"\b(hostel|hostels|accommodation|dormitory|girls hostel|boys hostel)\b", query_low):
-        filter_conditions.append({"type": "hostel"})
-        type_found = True
-    if re.search(r"\b(sport|sports|athletic|athletics|gym|fitness|competition|game|games)\b", query_low):
-        filter_conditions.append({"type": "sports"})
-        type_found = True
 
     metadata_filter = {}
     if len(filter_conditions) > 0:
@@ -276,32 +233,27 @@ def preprocess_and_get_filter(query: str) -> Tuple[str, Dict]:
 
 def run_chain(query):
     processed_query, metadata_filter = preprocess_and_get_filter(query)
+    
     search_kwargs = {"k": 15}
     if metadata_filter:
         search_kwargs["filter"] = metadata_filter
 
     docs = db.similarity_search(processed_query, **search_kwargs)
     
+    # Fallback to general search if filter yields nothing
     if len(docs) == 0 and metadata_filter:
         docs = db.similarity_search(processed_query, k=15)
 
     context = combine_docs(docs)
     
-    # --- ALLOW CHITCHAT IF CONTEXT IS EMPTY BUT QUERY IS FLIRTY ---
-    # We still perform the check, but if the LLM sees the strict guardrails in the prompt,
-    # it will refuse even if context is empty/irrelevant.
+    # Empty context handling with social fallback check
     if not context or len(context.strip()) < 10:
-        # Pass empty context but let the prompt handle the refusal for "dates/passwords"
-        # instead of hard-blocking with the "Principal" message immediately.
-        # This allows the LLM to say "I don't date" instead of "Contact Principal".
-        # We only return the hard fallback if it's a genuine information query.
-        
-        # Simple heuristic: If query looks like a college Q, fallback. If social, let LLM handle.
         college_keywords = ["syllabus", "fee", "exam", "hostel", "placement", "faculty", "admin", "room", "mark", "result"]
+        # If user asks a college question but we found nothing -> Hard Fallback
         if any(k in query.lower() for k in college_keywords):
             return FALLBACK_MSG
         else:
-            # Let the LLM reject the date/password request using the prompt instructions
+            # If user asks social/random q -> Let LLM handle refusal via system prompt
             inputs = {"context": "No specific college data found.", "question": query}
             response = llm.invoke(prompt.format(**inputs))
             return response.content if hasattr(response, "content") else str(response)
@@ -310,9 +262,8 @@ def run_chain(query):
     response = llm.invoke(prompt.format(**inputs))
     return response.content if hasattr(response, "content") else str(response)
 
-# ---------------------------
-# 3. Sidebar with Reset & Info
-# ---------------------------
+
+# Sidebar Configuration
 with st.sidebar:
     st.header("🎓 Yukti Bot")
     st.markdown("**AI Agent for Engineering College Ajmer**")
@@ -323,8 +274,32 @@ with st.sidebar:
     - **Faculty:** "Who is the HOD of CSE?"
     - **Placements:** "Who is the TPO head?"
     - **Hostels:** "What are the hostel rules?"
-    - **Labs:** "Details about Mechanical labs"
     """)
+    
+    # --- Campus Trivia Widget ---
+    st.markdown("---")
+    st.subheader("🧩 Campus Trivia")
+    
+    if "trivia_idx" not in st.session_state:
+        st.session_state.trivia_idx = random.randint(0, len(TRIVIA_DATA) - 1)
+        st.session_state.trivia_answered = False
+
+    question = TRIVIA_DATA[st.session_state.trivia_idx]
+
+    st.info(f"**Question:** {question['q']}")
+    user_choice = st.radio("Select an answer:", question["options"], key=f"q_{st.session_state.trivia_idx}")
+
+    if st.button("Check Answer ✨"):
+        if user_choice == question["correct"]:
+            st.balloons()
+            st.success(f"✅ Correct! \n\n**Fun Fact:** {question['fact']}")
+        else:
+            st.error("❌ Oops! Wrong answer. Try again!")
+
+    if st.button("New Question 🔄"):
+        st.session_state.trivia_idx = random.randint(0, len(TRIVIA_DATA) - 1)
+        st.rerun()
+    # ---------------------------
     
     st.markdown("---")
     if st.button("🗑️ Clear Chat History"):
@@ -333,9 +308,8 @@ with st.sidebar:
 
     st.markdown("Made with 🤖 for ECA Students")
 
-# ---------------------------
-# 4. Main Header Area
-# ---------------------------
+
+# Main Layout
 col1, col2 = st.columns([1, 6])
 
 with col1:
@@ -350,9 +324,7 @@ with col2:
 
 st.markdown("---")
 
-# ---------------------------
-# 5. Chat Interface
-# ---------------------------
+# Chat Interface
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
